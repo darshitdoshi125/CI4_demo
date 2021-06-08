@@ -1,0 +1,152 @@
+.error{
+	color: #ff0000;
+	font-weight: 400;
+}
+
+.dataTables_empty {
+	    text-align: center;
+}
+
+/* .dataTables_filter {
+	display : none;
+} */
+
+/* datatable in search select*/
+
+.select_filter{
+  width: 90% !important;
+}
+
+@media (min-width: 1365px){
+  
+  .table-responsive
+  {
+  overflow-x: hidden !important;
+  }
+  
+}
+
+.text_filter {
+    width: 100% !important;
+}
+
+/* login page css */
+.login-box-body, .register-box-body {
+  border-radius: 5px;
+}
+
+/* login button background color */
+.login.btn-primary{
+  background: linear-gradient(to bottom right, #fb795a, #FC6743) !important;
+  border-color: #FC6743;
+  border-radius: 3px !important;
+}
+.login.btn-primary:active{
+  background: linear-gradient(to bottom right, #fb795a, #FC6743) !important;
+  border-color: #FC6743;
+  border-radius: 3px !important;
+}
+.login.btn-primary:hover{
+  background: linear-gradient(to bottom right, #fb795a, #FC6743) !important;
+  border-color: #FC6743;
+  border-radius: 3px !important;
+}
+
+
+
+
+
+/*header user dropdown*/
+
+.dropdown-menu>li>a{
+  padding: 5px 20px !important;
+}
+
+.navbar-nav>.user-menu>.dropdown-menu {
+  width: 200px !important;
+}
+
+.button-manage{
+	padding-left: 10px !important;
+}
+
+.image-item {
+  position: relative;
+  margin-bottom: 30px;
+  background: #f1f1f1;
+ 
+	margin: 20px;
+  height: auto;
+ 
+}
+.img_hover_edit {
+	padding-left: initial !important;
+padding-right: initial !important;
+}
+.image-item input {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+.image-item img,
+.employee-item img {
+  width: 100%;
+}
+.image-item .close {
+  position: absolute;
+  right: -10px;
+  top: -10px;
+  width: 30px;
+  height: 30px;
+  background: #df0000;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 50%;
+  color: #fff;
+  text-shadow: none;
+  opacity: 1;
+}
+
+.image-item-hover {
+    position: absolute;
+    right: 41%;
+    top: 41%;
+    color: white;
+    font-size: 5px;
+}
+
+.crop img {
+    height: 250px !important;
+   /* margin: -75px 0 0 -100px;*/
+    object-fit: cover;
+    width: 300px;
+}
+.crop_box img
+{
+	  height: 100px !important;
+    /* margin: -75px 0 0 -100px; */
+    object-fit: cover;
+    width: 192px;
+} 
+
+.crop-comment img {
+	height: 50px !important;
+   /* margin: -75px 0 0 -100px;*/
+    object-fit: cover;
+    width: 60px;
+}
+
+.popup_row
+{
+  padding:5px;
+  margin:5px;
+  overflow:hidden;
+  border-radius: 5px;
+}
+
+.thumb-id
+{
+  height: 125px !important;
+  width: 250px !important;
+}
